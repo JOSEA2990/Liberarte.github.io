@@ -1,17 +1,20 @@
 body{
-    background-color: rgb(230, 165, 165);
+    background-color: rgb(255, 255, 255);
     text-align: center;
     align-content: center;
     margin: 0;
 }
 
 .Fondo{
-    background:url(Museo2.jpg);
-    width: 100%;
-    height:100%;
-    position: fixed;
-    background-size:cover;
+    text-align: center;
+    margin-top: 1vh;
+    background-image: url(Museo2.jpg);
+    background-size: 100%;
     background-position: center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-color: rgba(118, 180, 131, 0.5);
+    height: 100%;
 }
 
 .CajaV{
@@ -33,8 +36,9 @@ h1{
     text-align: center;
     margin: 0;
     margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 2vh;
     font-size: 5vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 h2{
@@ -46,10 +50,12 @@ form{
     background-color: rgb(122, 119, 119);
     padding: 20px 0;
     max-width: 600px;
+    width: 90%;
     margin: auto;
     box-shadow: 0px 0px 30px gray;
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .forminput{
@@ -58,9 +64,10 @@ form{
 
 button{
     box-sizing: border-box;
-    padding: 0 20px;
+    padding: 0;
     width: 100%;
-    height: 30px;
+    height: 90%;
+    font-size: medium;
     font-family: sans-serif;
 }
 
@@ -87,8 +94,8 @@ input{
 }
 
 .Caja{
-    width: 20vh;
-    height: 10vh;
+    width: 25vh;
+    height: 35vh;
     margin: 0;
     background-color: white;
     display:inline-block;
@@ -98,7 +105,7 @@ input{
     border-radius: 10px;
     font-size: 5vh;
     padding: 0;
-    padding-top: 2vh;
+    padding-top: 5vh;
 }
 
 .Caja2{
@@ -121,7 +128,7 @@ img{
 }
 
 .CajaBaja{
-    background:linear-gradient(rgb(212, 124, 212),rgb(59, 58, 58),rgb(212, 124, 212));
+    background:linear-gradient(rgb(216, 196, 216),rgb(59, 58, 58),rgb(211, 197, 211));
     min-height: 70px;
     margin: 0;
     margin-top: 30px;
@@ -167,13 +174,13 @@ a{
     height: 90%;
     box-shadow: 0px 0px 80px gray;
     margin-top: 10px;
-    border-radius: 40px;
+    border-radius: 10px;
 }
 
 .ImagenL{
     margin-top: 2vh;
-    max-width: 20%;
-    margin-left: 40%;
+    max-width: 30%;
+    margin-left: 35%;
     box-shadow: 0px 0px 100px 10px  rgba(248, 237, 248, 0.4);
     border-radius: 40px;
     background-color: rgba(248, 237, 248, 0.4);
